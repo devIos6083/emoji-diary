@@ -13,7 +13,7 @@ const DiaryItem = ({ id, emotionId, createdDate, content }) => {
   return (
     <div className="DiaryItem">
       <div
-        className={`img_selection img_selection_${emotionId}`}
+        className={`img_section img_section_${emotionId}`}
         onClick={goDiaryPage}
       >
         <img src={getEmotionImage(emotionId)} />
@@ -23,7 +23,7 @@ const DiaryItem = ({ id, emotionId, createdDate, content }) => {
           {new Date(createdDate).toLocaleDateString()}
         </div>
         <div className="content">{content}</div>
-        <div className="button_selection">
+        <div className="button_section">
           {<Button text={'수정하기'} onClick={goEditPage} />}
         </div>
       </div>

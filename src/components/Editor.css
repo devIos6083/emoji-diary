@@ -24,7 +24,7 @@ textarea {
   box-sizing: border-box;
 }
 
-.Editor .emotion_selection .emotion_list_wrapper {
+.Editor .emotion_section .emotion_list_wrapper {
   display: flex;
   justify-content: space-around;
   gap: 2%;

@@ -6,7 +6,7 @@
   border-bottom: 1px solid rgb(236, 236, 236);
 }
 
-.DiaryItem .img_selection {
+.DiaryItem .img_section {
   min-width: 120px;
   height: 80px;
   display: flex;
@@ -15,7 +15,7 @@
   border-radius: 5px;
 }
 
-.DiaryItem .img_selection > img {
+.DiaryItem .img_section > img {
   width: 50%;
 }
 
@@ -53,6 +53,6 @@
   font-size: 18px;
 }
 
-.DiaryItem .info_selection .button_selection {
+.DiaryItem .info_selection .button_section {
   min-width: 70px;
 }
